@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profolio</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Typed.js -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+  <div class="container">
+    <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+      <img src="adhi1.jpg" alt="Logo">
+      <span class="text-uppercase fw-lighter ms-2">Attrie</span>
+    </a>
+
+    <div class="order-lg-2">
+      <button type="button" class="btn position-relative">
+        <i class="fa fa-shopping-cart"></i>
+        <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+      </button>
+
+      <button type="button" class="btn position-relative">
+        <i class="fa fa-heart"></i>
+        <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+      </button>
+
+      <button type="button" class="btn position-relative">
+        <i class="fa fa-search"></i>
+        <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+      </button>
+    </div>
+
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse order-lg-1" id="navmenu">
+      <ul class="navbar-nav mx-auto text-center">
+        <li class="nav-item px-2 py-2"><a class="nav-link text-uppercase text-dark" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#header">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#header">Edit</a></li>
+        <li class="nav-item"><a class="nav-link" href="#header">next</a></li>
+        <li class="nav-item"><a class="nav-link" href="#header">previous</a></li>
+        <li class="nav-item"><a class="nav-link" href="#header">Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="#header">pay</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Header Carousel -->
+<header id="header" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top:140px;">
+
+  <div class="carousel-inner h-100">
+
+    
+
+    <!-- Slide 1 -->
+    <div class="carousel-item bg-slide3 h-100 d-flex align-items-center justify-content-center text-center" data-bs-interval="1000">
+      <div>
+       <h2 class="text-capitalize text-full-danger">Trending Now</h2>
+
+        <h1 class="text-uppercase py-2 fw-bold text-primary ">Hot Deals</h1>
+        <a href="#" class="btn mt-3 text-uppercase" data-bs-toggle="modal" data-bs-target="#imgDetails">Explore</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</header>
+
+<!-- Modal -->
+<!-- Modal -->
+<div class="modal fade" id="imgDetails" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Revathi Collection</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body text-center">
+        
+        <!-- Row 1 -->
+        <div class="row mb-3">
+        <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+  <div class="collection-img position-relative">
+    <video class="w-100" autoplay muted loop>
+      <source src="vii.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center px-2">Hot</span>
+  </div>
+  <div class="text-center">
+    <div class="rating text-primary">
+      <i class="fas fa-star"></i><i class="fas fa-star"></i>
+      <i class="fas fa-star"></i><i class="far fa-star"></i>
+      <i class="far fa-star"></i>
+    </div>
+    <p class="text-capitalize my-1">memu live kosi parsel chestam Guava fresh</p>
+    <span class="fw-bold">₹5</span>
+  </div>
+</div>
+          <div class="col-md-4">
+            <img src="kaa.jpg" class="img-fluid rounded shadow mb-2" alt="Saree">
+            <p>i phone - ₹25</p>
+          </div>
+          <div class="col-md-4">
+            <img src="ll.jpg" class="img-fluid rounded shadow mb-2" alt="Shirt">
+            <p>Gray Shirt - ₹7</p>
+          </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="row mb-3">
+          <div class="col-md-4">
+            <img src="see.jpg" class="img-fluid rounded shadow mb-2" alt="Kurti">
+            <p>kallajodu - ₹9</p>
+          </div>
+          <div class="col-md-4">
+            <img src="jjj.jpg" class="img-fluid rounded shadow mb-2" alt="T-Shirt">
+            <p>Black T-Shirt - ₹550</p>
+          </div>
+          <div class="col-md-4">
+            <img src="bharath.jpg" class="img-fluid rounded shadow mb-2" alt="T-Shirt">
+            <p>Red-Shirt - ₹50</p>
+          </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="row mb-3">
+          <div class="col-md-4">
+            <img src="idd.jpg" class="img-fluid rounded shadow mb-2" alt="T-Shirt">
+            <p>id cards - ₹5500</p>
+          </div>
+          <div class="col-md-4">
+            <img src="eswar.jpg" class="img-fluid rounded shadow mb-2" alt="T-Shirt">
+            <p>Rendu Shirts - ₹550</p>
+          </div>
+          
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+  <div class="collection-img position-relative">
+    <video class="w-100" autoplay muted loop>
+      <source src="readingg.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center px-2">Hot</span>
+  </div>
+  <div class="text-center">
+    <div class="rating text-primary">
+      <i class="fas fa-star"></i><i class="fas fa-star"></i>
+      <i class="fas fa-star"></i><i class="far fa-star"></i>
+      <i class="far fa-star"></i>
+    </div>
+    <p class="text-capitalize my-1">ma vadha printing kuda vestam</p>
+    <span class="fw-bold">₹1</span>
+  </div>
+</div>
+
+
+        </div>
+
+        <!-- Row 4 -->
+        <div class="row mb-3">
+          <div class="col-md-4">
+            <img src="ajii.jpg" class="img-fluid rounded shadow mb-2" alt="T-Shirt">
+            <p>small-Black T-Shirt - ₹550</p>
+          </div>
+          <div class="col-md-4">
+            <img src="adhi1.jpg" class="img-fluid rounded shadow mb-2" alt="T-Shirt">
+            <p> big -Black T-Shirt - ₹550</p>
+          </div>
+          <div class="col-md-4">
+            <img src="gopii.jpg" class="img-fluid rounded shadow mb-2" alt="Revathi">
+            <p>lungi- ac - ₹3200</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Payment Section -->
+<section id="payment" class="py-5 bg-light">
+  <div class="container">
+    <div class="title text-center mb-4">
+      <h2 class="position-relative d-inline-block">Payment Details</h2>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form id="paymentForm" class="p-4 rounded shadow bg-white">
+          <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control" placeholder="Enter your name" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Card Number</label>
+            <input type="text" class="form-control" placeholder="xxxx-xxxx-xxxx-xxxx" required>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label class="form-label">Expiry Date</label>
+              <input type="text" class="form-control" placeholder="MM/YY" required>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label class="form-label">CVV</label>
+              <input type="password" class="form-control" placeholder="***" required>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Amount</label>
+            <input type="text" class="form-control" placeholder="₹2999" required>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Pay Now</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JS Script -->
+<script>
+  document.getElementById("paymentForm").addEventListener("submit", function(e) {
+    e.preventDefault(); // page refresh kakunda stop chesthadi
+    alert("✅ Payment Successful! Thank you for your purchase.");
+  });
+</script>
+
+</div>
+
+
+
+<!-- Collection Section -->
+<section id="collection" class="py-5">
+  <div class="collection py-5">
+    <div class="title text-center">
+      <h2 class="position-relative d-inline-block">New Collection</h2>
+    </div>
+
+    <!-- Filter Buttons -->
+    <div class="d-flex flex-wrap justify-content-center mt-5 filter-button-group">
+      <button type="button" class="btn m-2 text-dark active-filter-btn" data-filter="*">All</button>
+      <button type="button" class="btn m-2 text-dark" data-filter=".best">Best Sellers</button>
+      <button type="button" class="btn m-2 text-dark" data-filter=".feat">Arrival</button>
+      <button type="button" class="btn m-2 text-dark" data-filter=".new">Wow</button>
+    </div>
+
+    <!-- Products Grid -->
+    <div class="collection-list mt-4 row gx-0 gy-3">
+      
+      <!-- Product 1 -->
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2 best">
+        <div class="collection-img position-relative">
+          <img src="ll.jpg" class="w-100" alt="Product">
+          <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center px-2">Sale</span>
+        </div>
+        <div class="text-center">
+          <div class="rating text-primary">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="text-capitalize my-1">Gray Shirt</p>
+          <span class="fw-bold">₹700</span>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+        <div class="collection-img position-relative">
+          <img src="see.jpg" class="w-100" alt="Product">
+          <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center px-2">New</span>
+        </div>
+        <div class="text-center">
+          <div class="rating text-primary">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p class="text-capitalize my-1">kallajodu </p>
+          <span class="fw-bold">₹999</span>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+        <div class="collection-img position-relative">
+          <img src="jjj.jpg" class="w-100" alt="Product">
+          <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center px-2">Hot</span>
+        </div>
+        <div class="text-center">
+          <div class="rating text-primary">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p class="text-capitalize my-1">small Black T-Shirt</p>
+          <span class="fw-bold">₹550</span>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2 best">
+        <div class="collection-img position-relative">
+          <img src="kaa.jpg" class="w-100" alt="Product">
+          <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center px-2">Sale</span>
+        </div>
+        <div class="text-center">
+          <div class="rating text-primary">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="text-capitalize my-1">i-phone</p>
+          <span class="fw-bold">₹2</span>
+        </div>
+      </div>
+       <!-- Product 5 -->
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+        <div class="collection-img position-relative">
+          <img src="bharath.jpg" class="w-100" alt="Product">
+          <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center px-2">Hot</span>
+        </div>
+        <div class="text-center">
+          <div class="rating text-primary">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p class="text-capitalize my-1">red -Shirt</p>
+          <span class="fw-bold">₹50</span>
+        </div>
+      </div>
+ <!-- Product 6 -->
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+        <div class="collection-img position-relative">
+          <img src="idd.jpg" class="w-100" alt="Product">
+          <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center px-2">Hot</span>
+        </div>
+        <div class="text-center">
+          <div class="rating text-primary">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p class="text-capitalize my-1">id-cards</p>
+          <span class="fw-bold">₹5500</span>
+        </div>
+      </div>
+ <!-- Product 7 -->
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+        <div class="collection-img position-relative">
+          <img src="eswar.jpg" class="w-100" alt="Product">
+          <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center px-2">Hot</span>
+        </div>
+        <div class="text-center">
+          <div class="rating text-primary">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p class="text-capitalize my-1">Rendu-Shirts</p>
+          <span class="fw-bold">₹550</span>
+        </div>
+      </div>
+       <!-- Product 8 -->
+<div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+  <div class="collection-img position-relative">
+    <video class="w-100" autoplay muted loop>
+      <source src="vii.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center px-2">Hot</span>
+  </div>
+  <div class="text-center">
+    <div class="rating text-primary">
+      <i class="fas fa-star"></i><i class="fas fa-star"></i>
+      <i class="fas fa-star"></i><i class="far fa-star"></i>
+      <i class="far fa-star"></i>
+    </div>
+    <p class="text-capitalize my-1">memu live kosi parsel chestam Guava fresh</p>
+    <span class="fw-bold">₹5</span>
+  </div>
+</div>
+
+ <!-- Product 9 -->
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+        <div class="collection-img position-relative">
+          <img src="gopii.jpg" class="w-100" alt="Product">
+          <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center px-2">Hot</span>
+        </div>
+        <div class="text-center">
+          <div class="rating text-primary">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p class="text-capitalize my-1">lungi-non-ac</p>
+          <span class="fw-bold">₹550</span>
+        </div>
+      </div>
+ <!-- Product 10 -->
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+        <div class="collection-img position-relative">
+          <img src="ajii.jpg" class="w-100" alt="Product">
+          <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center px-2">Hot</span>
+        </div>
+        <div class="text-center">
+          <div class="rating text-primary">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p class="text-capitalize my-1">below 14-Black T-Shirt</p>
+          <span class="fw-bold">₹550</span>
+        </div>
+      </div>
+       <!-- Product 11 -->
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+        <div class="collection-img position-relative">
+          <img src="adhi1.jpg" class="w-100" alt="Product">
+          <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center px-2">Hot</span>
+        </div>
+        <div class="text-center">
+          <div class="rating text-primary">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p class="text-capitalize my-1">big-Black T-Shirt</p>
+          <span class="fw-bold">₹550</span>
+        </div>
+      </div>
+ <!-- Product 12 -->
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+  <div class="collection-img position-relative">
+    <video class="w-100" autoplay muted loop>
+      <source src="readingg.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center px-2">Hot</span>
+  </div>
+  <div class="text-center">
+    <div class="rating text-primary">
+      <i class="fas fa-star"></i><i class="fas fa-star"></i>
+      <i class="fas fa-star"></i><i class="far fa-star"></i>
+      <i class="far fa-star"></i>
+    </div>
+    <p class="text-capitalize my-1">ma vadha printing kuda undi kevalam </p>
+    <span class="fw-bold">₹1</span>
+  </div>
+</div>
+
+
+
+
+      <!-- You can keep adding products in same structure -->
+    </div>
+  </div>
+</section>
+<!-- Payment Section -->
+<section id="payment" class="py-5 bg-light">
+  <div class="container">
+    <div class="title text-center mb-4">
+      <h2 class="position-relative d-inline-block">Payment Details</h2>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form id="paymentForm" class="p-4 rounded shadow bg-white">
+          <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control" placeholder="Enter your name" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Card Number</label>
+            <input type="text" class="form-control" placeholder="xxxx-xxxx-xxxx-xxxx" required>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label class="form-label">Expiry Date</label>
+              <input type="text" class="form-control" placeholder="MM/YY" required>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label class="form-label">CVV</label>
+              <input type="password" class="form-control" placeholder="***" required>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Amount</label>
+            <input type="text" class="form-control" placeholder="₹2999" required>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Pay Now</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JS Script -->
+<script>
+  document.getElementById("paymentForm").addEventListener("submit", function(e) {
+    e.preventDefault(); // page refresh kakunda stop chesthadi
+    alert("✅ Payment Successful! Thank you for your purchase.");
+  });
+</script>
+
+
+
+<!-- Scripts -->
+<script src="js/jquery-3.6.0.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

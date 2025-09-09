@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-primary {
+  background-color: #fff; /* Override Bootstrap bg-primary */
+}
+
+.navbar {
+  box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+  width: 30px;
+}
+.text-full-danger {
+  color: #ff0000 !important; /* Pure red */
+}
+
+.navbar-brand span {
+  letter-spacing: 2px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.carousel-item {
+  height: 100vh; /* full screen height */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-slide1 {
+  background: url('revathi.jpg') center/cover no-repeat;
+}
+.bg-slide2 {
+  background: url('re.jpg') center/cover no-repeat;
+}
+.bg-slide3 {
+  background: url('shop.jpg') center/cover no-repeat;
+}
+
+bg-slide {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  animation: changeBg 15s infinite ease-in-out; /* 15s ante slow */
+}
+
+@keyframes changeBg {
+  0% { background-image: url('revathi.jpg'); }
+  33% { background-image: url('re.jpg'); }
+  66% { background-image: url('shop.jpg'); }
+  100% { background-image: url('revathi.jpg'); }
+}
+.nav-link:hover {
+  color: pink;
+}
+
+.nav-item {
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+#header {
+  background: url(revathi.jpg) top/cover no-repeat;
+}
+
+/* Carousel heading */
+.carousel-inner h1 {
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Carousel buttons */
+.carousel-item .btn {
+  border-color: #fff;
+}
+
+.carousel-item .btn:hover {
+  border-color: pink;
+}
+
+/* General button styling */
+.btn:not(.nav-btn button) {
+  background-color: #fff;
+  color: rgb(85, 85, 85);
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 1px solid rgb(85, 85, 85);
+}
+
+/* Hover effect for buttons */
+.btn:not(.nav-btn button):hover {
+  background-color: pink;
+  color: #fff;
+  border-color: red;
+}
+
+/* Title decoration */
+.title h2::before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 50px;
+  background-color: pink;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.active-filter-btn{
+  background-color:red;
+  color:#fff;
+  border-color:blue;
+
+}
+.collection-img span{
+  top:20px;
+  right:20px;
+  width:46px;
+  height:46px;
+  border-radius: 50%;
+}
+
+
+
+@media(min-width:992px){
+  .nav-item{
+    border-bottom:none;
+  }
+
+}
+  
